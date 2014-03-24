@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>UTrade</title>
+        <link href="static/navbar.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1 style="text-align:center">UTrade</h1>
+		<div class="horizontal">
+		<div>
+		<ul>
+			<li><a href="Home.jsp">Home</a></li>
+			<li><a href="Profile.jsp">Profile</a></li>
+			<li><a href="blank.html">Browse</a></li>
+			<li><a href="Login.html">Log Out</a></li>
+		</ul>
+		</div>
+		</div>
+		<h2>Make Payment</h2>
+        <form method="post" action="MakePayment">
+        	<p>Card Type: 
+        		<select name="cardType">
+  					<option>Visa</option>
+  					<option>Mastercard</option>
+  					<option>Discover</option>
+  					<option>American Express</option>
+  					<option>Capital One</option>
+				</select>
+			</p>
+			<p>Card Number: <input name="cardNum" value="XXXXXXXXXXXXXXXX" type="text" size="20"/></p>
+            <p>Security Code: <input name="secCode" type="text" size="4"/></p>
+            <p>Expiration Date: <input name="expDate" value="mmyyyy" type="text" size="10"/></p>
+    		<p><input value="Submit" type="submit"></p>
+        </form>
+    </body>
+</html>
+

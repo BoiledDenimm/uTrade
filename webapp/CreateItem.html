@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>UTrade | Add Item</title>
+	<link href="static/navbar.css" rel="stylesheet" type="text/css">
+	<script src="static/tree_files/mktree.js" type="text/javascript"></script>
+	</head>
+<body>
+<h1 style="text-align:center">UTrade</h1>	
+	<div class="horizontal">
+		<ul>
+			<li><a href="Home.jsp">Home</a></li>
+			<li><a href="Profile.jsp">Profile</a></li>
+			<li><a href="blank.html">Browse</a></li>
+			<li><a href="Login.html">Log Out</a></li>
+		</ul>
+	</div>
+    <body>
+        <h1>Add Item</h1>
+        <form method="post" action="CreateItem">
+			<p>Category: <input name="category" type="text" size="30"/></p>
+            <p><strong>Attributes</strong></p>
+            <p>Name: <input name="name" type="text" size="30"/>
+            <p>Starting Price: <input name="minBid" type="text" size="30"/>
+			<p>Auction End Time
+			<p>Month (mm): <input name="auctionEndMonth" type="text" size="4"> Day (dd): <input name="auctionEndDay" type="text" size="4"> Year (yyyy): <input name="auctionEndYear" type="text" size="7">
+            <p>Quantity: <input name="quantity" type="text" size="30"/>
+            <p>Attribute Name: <input name="attributeName1" type="text" value="Enter name of attribute here (Ex: Size, model, Color)" size="60"/></p>
+    		<p>Attribute Name: <input name="attributeName2" type="text" value="Enter name of attribute here (Ex: Size, model, Color)" size="60"/></p>
+    		<p>Attribute Name: <input name="attributeName3" type="text" value="Enter name of attribute here (Ex: Size, model, Color)" size="60"/></p>
+    		<p>Attribute Name: <input name="attributeName4" type="text" value="Enter name of attribute here (Ex: Size, model, Color)" size="60"/></p>
+    		<p>Attribute Name: <input name="attributeName5" type="text" value="Enter name of attribute here (Ex: Size, model, Color)" size="60"/></p>
+			<p><input value="Submit" type="submit"></p>
+        </form>
+    </body>
+</html>
+

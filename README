@@ -1,0 +1,5 @@
+Online Auction website backend built in a software engineering class with a small team.
+
+We made made use of interfaces, the Factory Design Pattern, the Iterator pattern, and adhoc MVC (frameworks were not allowed).
+
+I was the backend lead, designed the db schema that our models then implemented, and implemented the perist and ctrl packages. 
